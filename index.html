@@ -600,16 +600,33 @@
     .client-track:hover { animation-play-state: paused; }
     @keyframes marquee { to { transform: translateX(-50%); } }
 
-    .client-pill {
-      min-width: 180px;
-      padding: 22px 28px;
+    .client-logo-card {
+      min-width: 190px;
+      height: 104px;
+      padding: 22px 30px;
       border: 1px solid var(--line);
       border-radius: var(--radius);
       background: white;
       box-shadow: 0 12px 28px rgba(17, 24, 39, 0.08);
-      text-align: center;
-      font-weight: 900;
-      color: var(--teal-dark);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .client-logo-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(15, 118, 110, 0.24);
+      box-shadow: 0 18px 38px rgba(17, 24, 39, 0.13);
+    }
+
+    .client-logo-card img {
+      display: block;
+      max-width: 132px;
+      max-height: 48px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
     }
 
     .why-grid,
@@ -727,7 +744,7 @@
     .dark .process-card,
     .dark .platform-panel,
     .dark .platform-tab,
-    .dark .client-pill,
+    .dark .client-logo-card,
     .dark .stat,
     .dark .mini-stat {
       background: rgba(16, 26, 46, 0.88);
@@ -806,9 +823,8 @@
           <div class="dash-head">
             <div>
               <strong>Integration Command Center</strong>
-              <p style="color: var(--muted); margin-top: 4px;">Live architecture preview</p>
             </div>
-            <span class="status">Systems Online</span>
+           
           </div>
           <div class="orbit">
             <div class="ring one"></div>
@@ -932,13 +948,59 @@
 
     <section id="clients" class="clients">
       <div class="section-head reveal">
-        <div class="eyebrow">Trusted Across Teams</div>
-        <h2>Built for companies that need dependable execution.</h2>
-        <p>The moving client strip pauses on hover and keeps the page lively without any external library.</p>
+        <div class="eyebrow">Clients We Have Worked With</div>
+        <h2>Experience across global consulting, technology, data, education, and localization teams.</h2>
+        <p>A snapshot of organizations our delivery teams have supported through platform work, integrations, automation, and enterprise technology execution.</p>
       </div>
-      <div class="client-track reveal" aria-label="Client categories">
-        <div class="client-pill">Finance</div><div class="client-pill">Healthcare</div><div class="client-pill">Retail</div><div class="client-pill">Education</div><div class="client-pill">Manufacturing</div><div class="client-pill">Technology</div>
-        <div class="client-pill">Finance</div><div class="client-pill">Healthcare</div><div class="client-pill">Retail</div><div class="client-pill">Education</div><div class="client-pill">Manufacturing</div><div class="client-pill">Technology</div>
+      <div class="client-track reveal" aria-label="Client company logos">
+        <a class="client-logo-card" href="https://www.pwc.com/" target="_blank" rel="noopener" title="PwC">
+          <img src="https://logo.clearbit.com/pwc.com?size=256" alt="PwC logo" loading="lazy">
+        </a>
+        <a class="client-logo-card" href="https://www.brillio.com/" target="_blank" rel="noopener" title="Brillio">
+          <img src="https://logo.clearbit.com/brillio.com?size=256" alt="Brillio logo" loading="lazy">
+        </a>
+        <a class="client-logo-card" href="https://www.infosys.com/" target="_blank" rel="noopener" title="Infosys">
+          <img src="https://logo.clearbit.com/infosys.com?size=256" alt="Infosys logo" loading="lazy">
+        </a>
+        <a class="client-logo-card" href="https://www.confluent.io/" target="_blank" rel="noopener" title="Confluent">
+          <img src="https://logo.clearbit.com/confluent.io?size=256" alt="Confluent logo" loading="lazy">
+        </a>
+        <a class="client-logo-card" href="https://www.riverbed.com/" target="_blank" rel="noopener" title="Riverbed">
+          <img src="https://logo.clearbit.com/riverbed.com?size=256" alt="Riverbed logo" loading="lazy">
+        </a>
+        <a class="client-logo-card" href="https://www.cambiumlearning.com/" target="_blank" rel="noopener" title="Cambium Learning">
+          <img src="https://logo.clearbit.com/cambiumlearning.com?size=256" alt="Cambium Learning logo" loading="lazy">
+        </a>
+        <a class="client-logo-card" href="https://www.lionbridge.com/" target="_blank" rel="noopener" title="Lionbridge">
+          <img src="https://logo.clearbit.com/lionbridge.com?size=256" alt="Lionbridge logo" loading="lazy">
+        </a>
+        <a class="client-logo-card" href="https://www.avalara.com/" target="_blank" rel="noopener" title="Avalara">
+          <img src="https://logo.clearbit.com/avalara.com?size=256" alt="Avalara logo" loading="lazy">
+        </a>
+        <a class="client-logo-card" href="https://www.pwc.com/" target="_blank" rel="noopener" title="PwC">
+          <img src="https://logo.clearbit.com/pwc.com?size=256" alt="PwC logo" loading="lazy">
+        </a>
+        <a class="client-logo-card" href="https://www.brillio.com/" target="_blank" rel="noopener" title="Brillio">
+          <img src="https://logo.clearbit.com/brillio.com?size=256" alt="Brillio logo" loading="lazy">
+        </a>
+        <a class="client-logo-card" href="https://www.infosys.com/" target="_blank" rel="noopener" title="Infosys">
+          <img src="https://logo.clearbit.com/infosys.com?size=256" alt="Infosys logo" loading="lazy">
+        </a>
+        <a class="client-logo-card" href="https://www.confluent.io/" target="_blank" rel="noopener" title="Confluent">
+          <img src="https://logo.clearbit.com/confluent.io?size=256" alt="Confluent logo" loading="lazy">
+        </a>
+        <a class="client-logo-card" href="https://www.riverbed.com/" target="_blank" rel="noopener" title="Riverbed">
+          <img src="https://logo.clearbit.com/riverbed.com?size=256" alt="Riverbed logo" loading="lazy">
+        </a>
+        <a class="client-logo-card" href="https://www.cambiumlearning.com/" target="_blank" rel="noopener" title="Cambium Learning">
+          <img src="https://logo.clearbit.com/cambiumlearning.com?size=256" alt="Cambium Learning logo" loading="lazy">
+        </a>
+        <a class="client-logo-card" href="https://www.lionbridge.com/" target="_blank" rel="noopener" title="Lionbridge">
+          <img src="https://logo.clearbit.com/lionbridge.com?size=256" alt="Lionbridge logo" loading="lazy">
+        </a>
+        <a class="client-logo-card" href="https://www.avalara.com/" target="_blank" rel="noopener" title="Avalara">
+          <img src="https://logo.clearbit.com/avalara.com?size=256" alt="Avalara logo" loading="lazy">
+        </a>
       </div>
     </section>
 
