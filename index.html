@@ -6,18 +6,18 @@
   <title>Vedendu IT Solutions | Innovate. Integrate. Elevate.</title>
   <style>
     :root {
-      --ink: #111827;
-      --muted: #5b6475;
-      --paper: #fbfaf7;
+      --ink: #061a40;
+      --muted: #52627a;
+      --paper: #f7fbff;
       --panel: #ffffff;
-      --line: rgba(17, 24, 39, 0.12);
-      --teal: #0f766e;
-      --teal-dark: #134e4a;
-      --coral: #ef6f5e;
-      --gold: #f4b942;
-      --violet: #6d5dfc;
-      --sky: #38bdf8;
-      --shadow: 0 24px 70px rgba(17, 24, 39, 0.12);
+      --line: rgba(6, 26, 64, 0.12);
+      --teal: #0a6fcf;
+      --teal-dark: #06245c;
+      --coral: #1687e8;
+      --gold: #2aa8ff;
+      --violet: #092b6f;
+      --sky: #54b8ff;
+      --shadow: 0 24px 70px rgba(6, 26, 64, 0.12);
       --radius: 8px;
       --font: "Segoe UI", Arial, sans-serif;
     }
@@ -28,8 +28,8 @@
       font-family: var(--font);
       color: var(--ink);
       background:
-        linear-gradient(135deg, rgba(15, 118, 110, 0.08), transparent 35%),
-        linear-gradient(315deg, rgba(239, 111, 94, 0.10), transparent 35%),
+        linear-gradient(135deg, rgba(10, 111, 207, 0.10), transparent 35%),
+        linear-gradient(315deg, rgba(84, 184, 255, 0.12), transparent 36%),
         var(--paper);
       overflow-x: hidden;
     }
@@ -61,25 +61,12 @@
       letter-spacing: 0;
     }
 
-    .brand-mark {
-      width: 42px;
-      height: 42px;
-      display: grid;
-      place-items: center;
-      border-radius: 8px;
-      background: conic-gradient(from 140deg, var(--teal), var(--sky), var(--violet), var(--coral), var(--teal));
-      color: white;
-      box-shadow: 0 12px 26px rgba(15, 118, 110, 0.22);
-    }
-
-    .brand small {
+    .brand-logo {
       display: block;
-      color: var(--muted);
-      font-size: 11px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1.4px;
-      margin-top: 2px;
+      width: 206px;
+      height: auto;
+      max-height: 62px;
+      object-fit: contain;
     }
 
     .nav-links {
@@ -154,7 +141,7 @@
       align-items: center;
       gap: 10px;
       padding: 8px 14px;
-      border: 1px solid rgba(15, 118, 110, 0.22);
+      border: 1px solid rgba(10, 111, 207, 0.22);
       border-radius: 999px;
       background: rgba(255, 255, 255, 0.62);
       color: var(--teal-dark);
@@ -169,13 +156,13 @@
       height: 9px;
       border-radius: 50%;
       background: var(--coral);
-      box-shadow: 0 0 0 0 rgba(239, 111, 94, 0.45);
+      box-shadow: 0 0 0 0 rgba(22, 135, 232, 0.45);
       animation: pulse 1.8s infinite;
     }
 
     @keyframes pulse {
-      70% { box-shadow: 0 0 0 12px rgba(239, 111, 94, 0); }
-      100% { box-shadow: 0 0 0 0 rgba(239, 111, 94, 0); }
+      70% { box-shadow: 0 0 0 12px rgba(22, 135, 232, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(22, 135, 232, 0); }
     }
 
     .hero h1 {
@@ -228,13 +215,13 @@
       border-color: transparent;
       color: white;
       background: linear-gradient(135deg, var(--teal), var(--violet));
-      box-shadow: 0 18px 34px rgba(15, 118, 110, 0.24);
+      box-shadow: 0 18px 34px rgba(10, 111, 207, 0.24);
     }
 
     .btn:hover {
       transform: translateY(-3px);
       box-shadow: 0 18px 36px rgba(17, 24, 39, 0.14);
-      border-color: rgba(15, 118, 110, 0.24);
+      border-color: rgba(10, 111, 207, 0.24);
     }
 
     .command-center {
@@ -252,7 +239,7 @@
       content: "";
       position: absolute;
       inset: -35%;
-      background: conic-gradient(from var(--angle), transparent, rgba(56, 189, 248, 0.28), transparent, rgba(239, 111, 94, 0.28), transparent);
+      background: conic-gradient(from var(--angle), transparent, rgba(84, 184, 255, 0.28), transparent, rgba(9, 43, 111, 0.22), transparent);
       animation: rotate 13s linear infinite;
     }
 
@@ -327,7 +314,7 @@
       border-radius: 50%;
       color: white;
       background: radial-gradient(circle at 30% 30%, var(--sky), var(--teal) 48%, var(--teal-dark));
-      box-shadow: 0 18px 44px rgba(15, 118, 110, 0.25);
+      box-shadow: 0 18px 44px rgba(10, 111, 207, 0.25);
       font-weight: 900;
     }
 
@@ -461,7 +448,7 @@
       display: grid;
       place-items: center;
       border-radius: 8px;
-      background: rgba(15, 118, 110, 0.1);
+      background: rgba(10, 111, 207, 0.1);
       font-size: 25px;
       margin-bottom: 22px;
     }
@@ -496,8 +483,8 @@
     .tag {
       padding: 6px 10px;
       border-radius: 999px;
-      background: rgba(239, 111, 94, 0.12);
-      color: #9f2f21;
+      background: rgba(22, 135, 232, 0.12);
+      color: #063b88;
       font-size: 11px;
       font-weight: 900;
       text-transform: uppercase;
@@ -582,7 +569,7 @@
     .feature-list li {
       padding: 14px;
       border-radius: 8px;
-      background: rgba(15, 118, 110, 0.08);
+      background: rgba(10, 111, 207, 0.08);
       font-weight: 800;
     }
 
@@ -616,7 +603,7 @@
 
     .client-logo-card:hover {
       transform: translateY(-4px);
-      border-color: rgba(15, 118, 110, 0.24);
+      border-color: rgba(10, 111, 207, 0.24);
       box-shadow: 0 18px 38px rgba(17, 24, 39, 0.13);
     }
 
@@ -792,8 +779,7 @@
 <body>
   <header class="topbar">
     <a href="#home" class="brand" aria-label="Vedendu IT Solutions home">
-      <span class="brand-mark">V</span>
-      <span>Vedendu IT Solutions<small>Innovate. Integrate. Elevate.</small></span>
+      <img class="brand-logo" src="vedendu-it-solutions-logo-cropped.png" alt="Vedendu IT Solutions">
     </a>
     <ul class="nav-links">
       <li><a href="#services">Services</a></li>
@@ -823,8 +809,9 @@
           <div class="dash-head">
             <div>
               <strong>Integration Command Center</strong>
+              <p style="color: var(--muted); margin-top: 4px;">Live architecture preview</p>
             </div>
-           
+            <span class="status">Systems Online</span>
           </div>
           <div class="orbit">
             <div class="ring one"></div>
