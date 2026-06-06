@@ -27,9 +27,6 @@ function Clients() {
           <img src={lionbridgeLogo} alt="Lionbridge logo" />
         </div>
         <div className="client-logo-card">
-          <img src={AvalaraLogo} alt="Avalara logo" />
-        </div>
-        <div className="client-logo-card">
           <img src={pwcLogo} alt="PwC logo" />
         </div>
 
@@ -39,14 +36,6 @@ function Clients() {
 
         <div className="client-logo-card">
           <img src={InfosysLogo} alt="Infosys logo" />
-        </div>
-
-        <div className="client-logo-card">
-          <img src={ConfluentLogo} alt="Confluent logo" />
-        </div>
-
-        <div className="client-logo-card">
-          <img src={RiverbedLogo} alt="Riverbed logo" />
         </div>
         <div className="client-logo-card">
           <img src={cambiumLogo} alt="Cambium Learning logo" />
@@ -55,9 +44,6 @@ function Clients() {
           <img src={lionbridgeLogo} alt="Lionbridge logo" />
         </div>
         <div className="client-logo-card">
-          <img src={AvalaraLogo} alt="Avalara logo" />
-        </div>
-        <div className="client-logo-card">
           <img src={pwcLogo} alt="PwC logo" />
         </div>
 
@@ -67,14 +53,6 @@ function Clients() {
 
         <div className="client-logo-card">
           <img src={InfosysLogo} alt="Infosys logo" />
-        </div>
-
-        <div className="client-logo-card">
-          <img src={ConfluentLogo} alt="Confluent logo" />
-        </div>
-
-        <div className="client-logo-card">
-          <img src={RiverbedLogo} alt="Riverbed logo" />
         </div>
       </div>
     </section>
