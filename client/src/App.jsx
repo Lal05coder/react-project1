@@ -19,7 +19,6 @@ function App() {
       <Hero />
       <Stats />
       <Services />
-      <Blog />
       <Platforms />
       <WhyChoose />
       <Process />
