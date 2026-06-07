@@ -21,7 +21,7 @@ function App() {
       <Services />
       <Blog />
       <Platforms />
-      <Clients />
+     <!-- <Clients />  -->
       <WhyChoose />
       <Process />
       <Contact />
