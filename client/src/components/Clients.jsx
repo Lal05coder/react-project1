@@ -25,9 +25,6 @@ function Clients() {
           <img src={lionbridgeLogo} alt="Lionbridge logo" />
         </div>
         <div className="client-logo-card">
-          <img src={AvalaraLogo} alt="Avalara logo" />
-        </div>
-        <div className="client-logo-card">
           <img src={pwcLogo} alt="PwC logo" />
         </div>
 
@@ -38,15 +35,15 @@ function Clients() {
         <div className="client-logo-card">
           <img src={InfosysLogo} alt="Infosys logo" />
         </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4b5d995a362b30718ca90d947cbb584b1e3c1704
         <div className="client-logo-card">
           <img src={cambiumLogo} alt="Cambium Learning logo" />
         </div>
         <div className="client-logo-card">
           <img src={lionbridgeLogo} alt="Lionbridge logo" />
-        </div>
-        <div className="client-logo-card">
-          <img src={AvalaraLogo} alt="Avalara logo" />
         </div>
         <div className="client-logo-card">
           <img src={pwcLogo} alt="PwC logo" />
