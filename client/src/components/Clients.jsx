@@ -35,10 +35,8 @@ function Clients() {
         <div className="client-logo-card">
           <img src={InfosysLogo} alt="Infosys logo" />
         </div>
-<<<<<<< HEAD
 
-=======
->>>>>>> 4b5d995a362b30718ca90d947cbb584b1e3c1704
+
         <div className="client-logo-card">
           <img src={cambiumLogo} alt="Cambium Learning logo" />
         </div>
